@@ -1,0 +1,8 @@
+[[redirects]]
+  from = "/scales/*"
+  to = "/scales/index.html"
+  status = 200
+
+[build]
+  command = "npm run build"
+  publish = "dist"
